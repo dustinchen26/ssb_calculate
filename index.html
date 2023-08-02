@@ -59,7 +59,7 @@
 												{
 													var nDlCenterFreq = freq;
 													var dlEarfcn = nDlCenterFreq / 5;
-													var absFreqPointA = nDlCenterFreq - carrierBw * 12 * subCarrierSpacing / 2 - offsetToCarrier * 12 * 15;
+													var absFreqPointA = nDlCenterFreq - carrierBw * 12 * subCarrierSpacing / 2 - offsetToCarrier * 12 * subCarrierSpacing;
 													var absArfcnPointA = absFreqPointA / 5;
 													var Kssb = (absFreqSsb - 10 * 12 * subCarrierSpacing - absFreqPointA) % (subCarrierSpacing * 12) / 15;
 													var offsetToPointA = (absFreqSsb - 10 * 12 * subCarrierSpacing - Kssb * 15 - absFreqPointA) / (15 * 12);
@@ -103,7 +103,7 @@
 											{
 												var nDlCenterFreq = freq;
 												var dlEarfcn = nDlCenterFreq / 5;
-												var absFreqPointA = nDlCenterFreq - carrierBw * 12 * subCarrierSpacing / 2 - offsetToCarrier * 12 * 15;
+												var absFreqPointA = nDlCenterFreq - carrierBw * 12 * subCarrierSpacing / 2 - offsetToCarrier * 12 * subCarrierSpacing;
 												var absArfcnPointA = absFreqPointA / 5;
 												var Kssb = (absFreqSsb - 10 * 12 * subCarrierSpacing - absFreqPointA) % (subCarrierSpacing * 12) / 15;
 												var offsetToPointA = (absFreqSsb - 10 * 12 * subCarrierSpacing - Kssb * 15 - absFreqPointA) / (15 * 12);
@@ -139,7 +139,7 @@
 				            	{
                                     var nDlCenterFreq = freq;
                                     var dlEarfcn = (nDlCenterFreq - 3000000) / 15 + 600000;
-                                    var absFreqPointA = nDlCenterFreq - carrierBw * 12 * subCarrierSpacing / 2 - offsetToCarrier * 12 * 15;
+                                    var absFreqPointA = nDlCenterFreq - carrierBw * 12 * subCarrierSpacing / 2 - offsetToCarrier * 12 * subCarrierSpacing;
                                     var absArfcnPointA = (absFreqPointA - 3000000) / 15 + 600000;
                                     var Kssb = (absFreqSsb - 10 * 12 * subCarrierSpacing - absFreqPointA) % (subCarrierSpacing * 12) / 15;
                                     var offsetToPointA = (absFreqSsb - 10 * 12 * subCarrierSpacing - Kssb * 15 - absFreqPointA) / (15 * 12);
