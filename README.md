@@ -1,9 +1,11 @@
 # Online SSB calculator
 Author: Dustin_Chen Email: Dustin_Chen@compal.com or chuhpsdustin@gmail.com
 
-● basic: https://dustinchen26.github.io/ssb_calculate/
+● ssb_basic : https://dustinchen26.github.io/ssb_calculate/
 
-● advance: https://dustinchen26.github.io/ssb_calculator_advance/
+● ssb_advance : https://dustinchen26.github.io/ssb_calculator_advance/
+
+● ssb_xml : https://dustinchen26.github.io/ssb_xml/
 
 ## freq to arfcn convert
 ex:
