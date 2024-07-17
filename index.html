@@ -296,9 +296,7 @@
 
       // loop for the table index
       for (var t = 0; t < 5; t++) {
-        if (band === nrBand[t]['band'] && (freq_low >= nrBand[t]['lowest_freq']) && (freq_high <= nrBand[t][
-            'highest_freq'
-          ])) {
+        if (band === nrBand[t]['band'] && (freq_low >= nrBand[t]['lowest_freq']) && (freq_high <= nrBand[t]['highest_freq'])) {
           // The SS raster entries apply for channel bandwidths larger than or equal to 40 MHz
           if (band === 79 && carrierBw >= 106) {
             var nrBandIndex = 3;
